@@ -14,7 +14,6 @@ Esta é uma solução para o [Desafio do perfil de links sociais no Frontend Men
   - [Desenvolvimento Contínuo](#desenvolvimento-contínuo)
   - [Recursos Úteis](#recursos-úteis)
 - [Autor](#autor)
-- [Agradecimentos](#agradecimentos)
 
 
 
