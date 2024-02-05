@@ -1,5 +1,11 @@
 # Frontend Mentor - Solução do perfil de links sociais
 
+<table align="right">
+ <tr><td><a href="https://github.com/HugoHendrix/front-end-mentor-social-links/blob/main/README.md">Brazil: Português</a></td></tr> 
+ <tr><td><a href="https://github.com/HugoHendrix/front-end-mentor-social-links/blob/main/README-en.md">US: English</a></td></tr>
+</table>
+
+
 Esta é uma solução para o [Desafio do perfil de links sociais no Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). Os desafios do Frontend Mentor ajudam você a aprimorar suas habilidades de codificação, construindo projetos realistas.
 
 ## Sumário
