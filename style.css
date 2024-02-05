@@ -1,0 +1,84 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--Off-Black);
+  color: var(--White);
+  font-family: "Inter", sans-serif;
+  font-size: 1.4rem;
+  height: 100vh;
+}
+
+:root {
+  --Dark-Gray: hsl(0, 0%, 12%);
+  --Gray: hsl(0, 0%, 20%);
+  --Blue-Hendrix: hsl(214, 67%, 55%);
+  --Off-Black: hsl(0, 0%, 8%);
+  --White: hsl(0, 0%, 100%);
+}
+
+div.custom-container {
+  width: 100%;
+  max-width: 400px;
+  background-color: var(--Dark-Gray);
+}
+
+figure > img {
+  width: 40%;
+  border: 3px solid var(--Blue-Hendrix);
+}
+
+p.text-decoration {
+  color: var(--Blue-Hendrix);
+}
+
+span {
+  font-weight: 200;
+}
+
+li {
+  background-color: var(--Gray);
+  padding: 1rem;
+  margin: 1.3rem;
+  border-radius: 0.9rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+ul li a {
+  color: var(--White);
+  font-weight: bold;
+}
+
+ul li:hover a {
+  color: var(--Off-Black);
+}
+
+li:hover {
+  background-color: var(--Blue-Hendrix);
+  color: var(--Gray);
+}
+
+ul li a:focus {
+  outline: none; 
+  box-shadow: 0 0 0 3px var(--Blue-Hendrix); 
+}
+
+ul li a:focus:not(:hover) {
+  color: var(--Off-Black);
+  background-color: var(--Blue-Hendrix);
+}
+
+ul li:focus-within {
+  background-color: var(--Blue-Hendrix);
+  color: var(--Gray);
+}
+
+ul li:focus-within a {
+  color: var(--Gray);
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
